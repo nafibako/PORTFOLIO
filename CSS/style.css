@@ -13,10 +13,6 @@ a {
     color: rgb(56, 78, 85);
 }
 
-img.rounded-circle {
-    margin-top: 60px;
-}
-
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -52,12 +48,12 @@ input[type=text], select, textarea {
     padding: 20px;
   }
 
-  .col-greet {
+  .card-body {
     text-align: center;
     margin-top: 250px;
     margin-right: 20px;
     padding: 20px;
-    color:lightblue
+    color:rgb(58, 80, 87)
 }
 
 .container-cards{
