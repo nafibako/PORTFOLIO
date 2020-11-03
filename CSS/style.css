@@ -7,10 +7,16 @@ body {
 nav {
     background-color: lightblue;
     color: rgb(56, 78, 85);
+    padding: 3px;
 }
 
 a {
     color: rgb(56, 78, 85);
+}
+
+.container-intro{
+  margin: 30px;
+  background-color: silver;
 }
 
 
@@ -48,17 +54,26 @@ input[type=text], select, textarea {
     padding: 20px;
   }
 
-  .card-body {
+  .card-body-index {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 40px;
     margin-right: 20px;
-    padding: 20px;
+    padding: 10px;
     color:rgb(58, 80, 87)
 }
 
-.container-cards{
-    margin-top: 60px;
+.container-cards-index {
+    margin-top: 20px;
     padding: 50px;
     margin margin-left: 20px;
+    background-color: lightblue;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: lightblue ;
+  color: rgb(56, 78, 85);
+  position: sticky;
 }
 
